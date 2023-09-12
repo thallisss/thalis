@@ -5,16 +5,6 @@ def numero_primo(numero):
     for divisor in range(2,numero):
         if numero% divisor == 0:
             return False
-        # break
-    return True
+         return True
 
 
-
-dividendo = int(input("\n\nDigite um num inteiro: "))
-print("Exibe todos os seus divisores primos ")
-lista_divisor_primos = []
-for divisor in range(1,dividendo):
-    if dividendo %divisor == 0:
-        if(numero_primo(divisor)):
-            lista_divisor_primos.append(divisor)
-print(lista_divisor_primos)
